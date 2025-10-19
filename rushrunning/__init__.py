@@ -1,7 +1,7 @@
 ﻿import sys
 from functools import wraps
 
-from rushclis import print_red
+from rushlib.output import print_red
 
 
 def launch(func):
